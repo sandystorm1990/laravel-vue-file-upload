@@ -4,10 +4,10 @@ The "form" tags can be used in vue file because input tags are invalid.
 在vue框架里面无法使用<input type="file">类似的文件上传html代码，因此使用了form标签
 
 html代码如下：
-<form enctype="multipart/form-data" method="post" class="service-file-form">
-    <input type="file" class="form-control" name="file">
-</form>
-<input class="btn btn-warning btn-sm" value="Upload" v-on:click="uploadService('service-'+item.id)">
+"<form enctype="multipart/form-data" method="post" class="service-file-form">"
+    "<input type="file" class="form-control" name="file">"
+"</form>"
+"<input class="btn btn-warning btn-sm" value="Upload" v-on:click="uploadService('service-'+item.id)">"
 
 js部分：
 uploadAdvertise(tag) {
